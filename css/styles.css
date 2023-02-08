@@ -431,7 +431,7 @@ address{
 }
 .features-banner{
   margin: 0;
-  padding: 24px 0 24px;
+  padding: 24px 0 24px 0;
   width: 264px;
   height: 112px;
   background-color: var(--accent);
