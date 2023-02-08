@@ -418,3 +418,10 @@ address{
   border-left: 1px solid var(--light);
   border-right: 1px solid var(--light);
 }
+
+
+/* svg icons */
+/* IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII */
+.features-1-svg{
+  color: aqua;
+}
