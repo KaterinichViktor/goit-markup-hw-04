@@ -34,6 +34,9 @@ h5{
   margin: 0;
 }
 
+ul{
+  list-style: none;
+}
 /* .header,
 .main,
 .main-2,
@@ -437,6 +440,24 @@ address{
 }
 
 
+.customers{
+  padding: 130px 0 120px 0 ;
+}
+
+.customers-header{
+  justify-content: center;
+  margin: 0 0 72px 0;
+  font-size: 36px;
+  line-height: 1.111111111111111;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.customers ul{
+  display: flex;
+  gap: 24px;
+}
 .customers li{
   margin: 0;
   border: 1px solid var(--subbtle-text);
