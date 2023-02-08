@@ -477,6 +477,7 @@ address{
   fill: currentColor;
   width: 104px;
   height: 56px;
+  display: flex;
 }
 .customers-icon:hover{
   fill: var(--pressed-state);
