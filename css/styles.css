@@ -327,7 +327,9 @@ address{
   padding: 100px 0 100px 0;
   background-color: var(--dark);
 }
-
+.footer .container{
+  display: flex;
+}
 
 
 .footer-text {
@@ -482,4 +484,37 @@ address{
 }
 .customers-icon:hover{
   fill: var(--pressed-state);
+}
+
+
+.social-media-footer{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.footer-media{
+  width: 208px;
+  height: 80px;
+}
+.footer-media ul{
+  display: flex;
+  gap: 16px;
+}
+
+.footer-media a{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  display: flex;
+}
+
+.footer-icon{
+  width: 24px;
+  height: 24px;
+  justify-self: center;
 }
