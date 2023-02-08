@@ -423,17 +423,15 @@ address{
 /* svg icons */
 /* IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII */
 .svg-icon{
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
   width: 64px;
   height: 64px;
-  align-items: center;
   display: flex;
 
 }
 .features-banner{
   margin: 0;
-  padding: 0;
+  padding: 24px 0 24px;
   width: 264px;
   height: 112px;
   background-color: var(--accent);
