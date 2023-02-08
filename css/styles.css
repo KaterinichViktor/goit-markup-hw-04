@@ -458,23 +458,26 @@ address{
   display: flex;
   gap: 24px;
 }
-.customers li{
+.customers a{
   margin: 0;
   border: 1px solid var(--subbtle-text);
   border-radius: 4px;
   width: 168px;
   height: 88px;
   padding: 16px 0 16px 0;
+  display: inline-block;
+  color: var(--subbtle-text);
 }
-.customers li:hover{
+.customers a:hover{
   border: 1px solid var(--pressed-state);
-  border-radius: 4px;
 }
 
 .customers-icon{
   margin: 0 auto;
-  color: var(--subbtle-text);
+  fill: currentColor;
+  width: 104px;
+  height: 56px;
 }
 .customers-icon:hover{
-  color: var(--pressed-state);
+  fill: var(--pressed-state);
 }
