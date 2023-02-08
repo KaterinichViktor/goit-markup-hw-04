@@ -7,6 +7,7 @@
 --primary-brand: #4D5AE5;
 --pressed-state: #404BBF;
 --white: #ffffff; 
+--subbtle-text: #8E8F99;
 }
 
 .body{
@@ -433,4 +434,26 @@ address{
   height: 112px;
   background-color: var(--accent);
   border-radius: 4px;
+}
+
+
+.customers li{
+  margin: 0;
+  border: 1px solid var(--subbtle-text);
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+  padding: 16px 0 16px 0;
+}
+.customers li:hover{
+  border: 1px solid var(--pressed-state);
+  border-radius: 4px;
+}
+
+.customers-icon{
+  margin: 0 auto;
+  color: var(--subbtle-text);
+}
+.customers-icon:hover{
+  color: var(--pressed-state);
 }
