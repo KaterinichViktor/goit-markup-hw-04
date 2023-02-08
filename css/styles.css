@@ -430,7 +430,7 @@ address{
 
 }
 .features-banner{
-  margin: 0;
+  margin: 0 0 8px 0;
   padding: 24px 0 24px 0;
   width: 264px;
   height: 112px;
