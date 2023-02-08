@@ -422,7 +422,11 @@ address{
 
 /* svg icons */
 /* IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII */
-.features-1-svg{
+.antenna-icon{
+  margin: 0;
+  padding: 0;
+  width: 264px;
+  height: 112px;
 
 }
 .features-antenna{
