@@ -478,9 +478,10 @@ address{
   margin-right: auto;
   margin-left: auto;
   fill: currentColor;
-  width: 104px;
-  height: 56px;
+  width: 168px;
+  height: 88px;
   size: cover;
+  padding: 16px 32px 16px 32px;
   /* display: flex; */
   display: block;
 }
