@@ -8,6 +8,7 @@
 --pressed-state: #404BBF;
 --white: #ffffff; 
 --subbtle-text: #8E8F99;
+--green:#31D0AA;
 }
 
 .body{
@@ -126,12 +127,12 @@ address{
   margin: 0;
   padding: 188px 0 188px 0;
   background-color: var(--dark);
-  background-image: url("../images/background.jpg");
   background-image: linear-gradient(
     to right,
-    rgba(46, 47, 66, 0.7)
+    rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
   );
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   
@@ -498,10 +499,19 @@ address{
 .footer-media{
   width: 208px;
   height: 80px;
+  padding: 0;
+  margin: 0 0 0 120px;
+
 }
 .footer-media ul{
   display: flex;
   gap: 16px;
+  margin: 16px 0 0 0;
+}
+
+.watermark-footer{
+  padding: 0;
+  margin: 0;
 }
 
 .footer-media a{
@@ -511,6 +521,10 @@ address{
   background-color: rgba(255, 255, 255, 0.1);
   display: inline-block;
   display: flex;
+}
+
+.footer-media a:hover{
+  background-color: var(--green);
 }
 
 .footer-icon{
