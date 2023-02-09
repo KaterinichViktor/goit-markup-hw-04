@@ -479,8 +479,9 @@ address{
   margin-right: auto;
   margin-left: auto;
   fill: currentColor;
-  width: 104px;
-  height: 56px;
+  /* width: 104px;
+  height: 56px; */
+  size: cover;
   display: flex;
 }
 .customers-icon:hover{
