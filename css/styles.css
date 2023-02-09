@@ -481,7 +481,8 @@ address{
   height: 88px;
   display: block;
 }
-.customers-icon:hover{
+.customers-icon:hover,
+.customers-icon:focus{
   fill: var(--pressed-state);
 }
 
@@ -521,7 +522,8 @@ address{
   display: flex;
 }
 
-.footer-media a:hover{
+.footer-media a:hover,
+.footer-media a:focus{
   background-color: var(--green);
 }
 
@@ -552,6 +554,10 @@ address{
   display: flex;
   margin: 0;
   padding: 0;
+}
+.team-name-job a:hover,
+.team-name-job a:focus{
+  background-color: var(--pressed-state);
 }
 
 .team-media-icons{
