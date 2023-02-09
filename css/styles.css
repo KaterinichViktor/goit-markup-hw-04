@@ -516,5 +516,9 @@ address{
 .footer-icon{
   width: 24px;
   height: 24px;
-  justify-self: center;
+  margin: auto auto;
+}
+
+.test-svg{
+  size= 100%;
 }
