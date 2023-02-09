@@ -479,10 +479,11 @@ address{
   margin-right: auto;
   margin-left: auto;
   fill: currentColor;
-  /* width: 104px;
-  height: 56px; */
+  width: 104px;
+  height: 56px;
   size: cover;
-  display: flex;
+  /* display: flex; */
+  display: block;
 }
 .customers-icon:hover{
   fill: var(--pressed-state);
@@ -532,7 +533,7 @@ address{
   width: 24px;
   height: 24px;
   margin: auto auto;
-  color: var(--white);
+  fill: var(--white);
 }
 
 
