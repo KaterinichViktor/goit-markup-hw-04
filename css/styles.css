@@ -531,6 +531,7 @@ address{
   width: 24px;
   height: 24px;
   margin: auto auto;
+  color: var(--white);
 }
 
 
