@@ -131,8 +131,7 @@ address{
     to right,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
-  );
-  background-image: url("../images/background.jpg");
+  ), url("../images/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   
