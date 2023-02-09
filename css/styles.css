@@ -466,7 +466,6 @@ address{
   border-radius: 4px;
   width: 168px;
   height: 88px;
-  padding: 16px 0 16px 0;
   display: inline-block;
   color: var(--subbtle-text);
 }
@@ -480,9 +479,6 @@ address{
   fill: currentColor;
   width: 168px;
   height: 88px;
-  size: cover;
-  padding: 16px 32px 16px 32px;
-  /* display: flex; */
   display: block;
 }
 .customers-icon:hover{
@@ -554,7 +550,6 @@ address{
   border-radius: 50%;
   background-color: var(--primary-brand);
   display: flex;
-  display: inline-block;
   margin: 0;
   padding: 0;
 }
