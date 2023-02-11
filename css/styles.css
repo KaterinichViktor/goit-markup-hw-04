@@ -382,7 +382,7 @@ address{
   display: inline-block;
   color: var(--subbtle-text);
 }
-.customers a:hover
+.customers a:hover,
 .customers a:focus{
   border: 1px solid var(--pressed-state);
   fill: var(--pressed-state);
@@ -513,23 +513,6 @@ address{
   margin: -48px 0 0 -24px;
 }
 
-
-.test-link{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.test-link:hover{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-/* .projects-list li a{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-.projects-list:hover li > a{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
-
-
 .projects-list h3{
   font-weight: 500;
   font-size: 20px;
@@ -551,12 +534,12 @@ address{
 .projects-list li{
   flex-basis: calc(100% / 3 - 24px);
   margin: 48px 0 0 24px;
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-/* .projects-list li:hover{
+.projects-list li:hover{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
-}  */
+} 
 
 .projects-text-box{
   padding: 32px 0 32px 16px;
