@@ -385,6 +385,10 @@ address{
 .customers a:hover,
 .customers a:focus{
   border: 1px solid var(--pressed-state);
+}
+
+.customers a:hover .customers-icon,
+.customers a:focus .customers-icon{
   fill: var(--pressed-state);
 }
 
